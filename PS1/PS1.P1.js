@@ -1,9 +1,9 @@
 const string = "exioi"
 const reverseString = string => {
-    var splitString = string.split("")
-    var sorted = splitString.sort()
-    var reversed = sorted.reverse()
-    var joined = reversed.join("")
+    const splitString = string.split("")
+    const sorted = splitString.sort()
+    const reversed = sorted.reverse()
+    const joined = reversed.join("")
 
 
     return joined
