@@ -1,0 +1,25 @@
+html
+html
+    head
+        title Current Weather
+    body
+        form(action = "/ps4/promise", method = "POST")
+            div
+                label(for = "city") City:
+                input(name = "city" value = "")
+            br
+            button(type = "submit") Load Weather (promise)
+
+        form(action = "/ps4/async", method = "POST")
+            div
+                label(for = "city") City:
+                input(name = "city" value = "")
+            br
+            button(type = "submit") Load Weather (async)
+
+        form(action = "/ps4/callback", method = "POST")
+            div
+                label(for = "city") City:
+                input(name = "city" value = "")
+            br
+            button(type = "submit") Load Weather (callback)
